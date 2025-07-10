@@ -1,0 +1,341 @@
+body{
+    background-color: rgb(249, 243, 239) ;
+}
+.divider{
+    border: 3px solid rgb(27, 60, 83);
+    border-radius: 5px;
+}
+header{
+    text-align: left;
+    font-family: Impact;
+    font-size: 25px;
+    padding:  20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(249, 243, 239);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content a {
+    margin-left: auto;
+    font-size: 28px; 
+    color: rgb(69, 104, 130);
+    row-gap: 20px;
+    text-decoration: none;
+}
+.hero{
+    background-color: rgb(210, 193, 182);
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pfp{
+    border-radius: 500px;
+    border: 6px solid black;
+}
+.hero-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.hero-text strong{
+    color: rgb(27, 60, 83);
+}
+.me{
+    text-align: center;
+}
+.me h2{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.underline {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 65px;
+    border: 2px solid rgb(69, 104, 130);
+    border-radius: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.flex-container h3{
+    margin-top: 5px;
+    color: rgb(27, 60, 83);
+    font-size: 25px;
+}
+.flex-container p{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex1{
+    padding: 15px;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 231, 220);
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(27, 60, 83);
+}
+.flex2{
+    padding: 15px;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 231, 220);
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(27, 60, 83);
+}
+.flex3{
+    padding: 15px;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 231, 220);
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(27, 60, 83);
+}
+.skills{
+    text-align: center;
+    background-color: rgb(210, 193, 182);
+    padding: 25px 50px;
+    margin-top: 75px;
+}
+.skills h2{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.columns{
+    display: grid;
+    gap: 25px 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.columns > div{
+    background-color: rgb(249, 243, 239);
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    border-left:2px solid rgb(27, 60, 83) ;
+    border-top:2px solid rgb(27, 60, 83);
+    border-bottom:4px solid rgb(27, 60, 83) ;
+    border-right:4px solid rgb(27, 60, 83) ;
+}
+.columns div:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.experience h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.experience h4{
+    text-align: right;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.experience h3{
+    margin-top: 2px;
+    font-size: 25px;
+}
+.experience p{
+    font-size: 25px;
+}
+.projects{
+    text-align: center;
+    background-color: rgb(210, 193, 182);
+    padding: 25px 50px;
+    margin-top: 75px;
+}
+.projects h2{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(249, 243, 239);
+    text-align: center;
+    border-radius: 10px;
+    border-top:3px solid rgb(27, 60, 83) ;
+    border-left:3px solid rgb(27, 60, 83) ;
+    border-bottom:6px solid rgb(27, 60, 83) ;
+    border-right:6px solid rgb(27, 60, 83) ;
+}
+.project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(249, 243, 239);
+    text-align: center;
+    border-radius: 10px;
+    border-top:3px solid rgb(27, 60, 83) ;
+    border-left:3px solid rgb(27, 60, 83) ;
+    border-bottom:6px solid rgb(27, 60, 83) ;
+    border-right:6px solid rgb(27, 60, 83) ;
+}
+.project3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(249, 243, 239);
+    text-align: center;
+    border-radius: 10px;
+    border-top:3px solid rgb(27, 60, 83) ;
+    border-left:3px solid rgb(27, 60, 83) ;
+    border-bottom:6px solid rgb(27, 60, 83) ;
+    border-right:6px solid rgb(27, 60, 83) ;
+}
+.projects h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projects p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(69, 104, 130);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+footer a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(69, 104, 130);
+    font-weight: bold;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .header-content a{
+        font-size: 15px;
+    }
+    .flex-container,
+    .flex-container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns {
+        grid-template-columns: 1fr 1fr;
+    }
+    .project1, .project2, .project3,
+    .flex1, .flex2, .flex3 {
+        width: 80vw;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    header {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .header-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero {
+        flex-direction: column;
+        padding: 20px 10px;
+        align-items: center;
+    }
+    #pfp {
+        width: 120px;
+        height: 120px;
+    }
+    .hero-text {
+        font-size: 16px;
+        text-align: center;
+    }
+    .me h2,
+    .skills h2,
+    .experience h2,
+    .projects h2 {
+        font-size: 22px;
+    }
+    .columns {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .columns > div {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .flex1, .flex2, .flex3,
+    .project1, .project2, .project3 {
+        width: 95vw;
+        max-width: 98vw;
+        height: auto;
+        padding: 10px;
+    }
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    footer a {
+        font-size: 18px;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .projects p,
+    .projects h3,
+    .experience p,
+    .experience h3 {
+        font-size: 16px;
+    }
+}
