@@ -258,7 +258,7 @@ footer h3{
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     .header-content a{
-        font-size: 15px;
+        font-size: 20px;
     }
     .flex-container,
     .flex-container2 {
@@ -316,8 +316,8 @@ footer h3{
     }
     .flex1, .flex2, .flex3,
     .project1, .project2, .project3 {
-        width: 95vw;
-        max-width: 98vw;
+        width: 85vw;
+        max-width: 85vw;
         height: auto;
         padding: 10px;
     }
